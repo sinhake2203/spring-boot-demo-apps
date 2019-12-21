@@ -16,7 +16,11 @@ public class JobOneController {
 
     @GetMapping(path="/user", produces = "application/json")
     public List<String> ratings(){
-    return Arrays.asList("1","2");
+        StringBuilder locationBuff= new StringBuilder();
+        locationBuff.append("a");
+
+
+        return Arrays.asList("1","2");
 
     }
 
