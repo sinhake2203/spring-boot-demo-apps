@@ -16,7 +16,7 @@ public class JobOneController {
 
     @GetMapping(path="/user", produces = "application/json")
     public List<String> ratings(){
-    return Arrays.asList("1");
+    return Arrays.asList("1","2");
 
     }
 
